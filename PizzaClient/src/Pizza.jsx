@@ -37,7 +37,7 @@ function Pizza() {
 
     const handleDelete = (id) => {
         // Simulate deleting item on API
-        const updatedData = data.filter(pizz => pizza.id !== id);
+        const updatedData = data.filter(pizza => pizza.id !== id);
         setData(updatedData);
     };
 
